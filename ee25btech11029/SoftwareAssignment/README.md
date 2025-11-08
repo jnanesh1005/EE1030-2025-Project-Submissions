@@ -1,8 +1,8 @@
-\## Steps to run the code
+## Steps to run the code
 
  
 
-\*\*first compile all the files\*\*
+**first compile all the files**
 
  
 
@@ -10,7 +10,7 @@ gcc main.c matrixutils.c image\_io.c svd.c analysis.c svd\_io.c -o svd\_compress
 
  
 
-\*\*compile convert.c\*\*
+**compile convert.c**
 
  
 
@@ -18,7 +18,7 @@ gcc convert.c -o jpeg\_to\_pgm
 
  
 
-\*\*then use executable file to create the image\*\*
+**then use executable file to create the image**
 
  
 
@@ -26,7 +26,7 @@ gcc convert.c -o jpeg\_to\_pgm
 
  
 
-\*\*after this use the python program to run all the C files together\*\*
+**after this use the python program to run all the C files together**
 
  
 
@@ -34,11 +34,11 @@ python3 convert.py
 
  
 
-\*\*after this convert the pgm file to jpeg\*\*
+**after this convert the pgm file to jpeg**
 
  
 
-\*\*compile pgm\_to\_jpeg.c\*\*
+**compile pgm\_to\_jpeg.c**
 
  
 
@@ -46,11 +46,12 @@ gcc pgm\_to\_jpeg.c -o pgm\_to\_jpeg
 
  
 
-\*\*then execute this\*\*
+**then execute this**
 
  
 
 ./pgm\_to\_jpeg <image.pgm> <image.jpg>
+
 
 
 
